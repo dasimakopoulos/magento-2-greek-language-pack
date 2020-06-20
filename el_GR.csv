@@ -100,7 +100,7 @@
 "Last ordered items (%1)","Τελευταία παραγγελθέντα είδη (%1)",module,Magento_AdvancedCheckout
 "Products","Προϊόντα",module,Magento_AdvancedCheckout
 "ID","ID",module,Magento_AdvancedCheckout
-"SKU","Κωδικός",module,Magento_AdvancedCheckout
+"SKU#","Κωδικός",module,Magento_AdvancedCheckout
 "Recently Compared Products (%1)","Πρόσφατα Συγκριθέντα Προϊόντα (%1)",module,Magento_AdvancedCheckout
 "Recently Viewed Products (%1)","Πρόσφατες Εμφανίσεις Προϊόντων (%1)",module,Magento_AdvancedCheckout
 "Add to Shopping Cart by SKU","Προσθήκη στο Καλάθι Αγορών από Κωδικός Προϊόντος",module,Magento_AdvancedCheckout
@@ -135,7 +135,7 @@
 "You cannot configure a product.","Δεν μπορείτε να ρυθμίσετε ένα προϊόν.",module,Magento_AdvancedCheckout
 "You removed the items.","Αφαιρέσατε τα στοιχεία.",module,Magento_AdvancedCheckout
 "You removed the item.","Αφαιρέσατε το στοιχείο.",module,Magento_AdvancedCheckout
-"You added %1 to your shopping cart.","Προσθέσατε %1 στο καλάθι αγορών σας.",module,Magento_AdvancedCheckout
+"You added %1 to your shopping cart.","Πρόσθεσες %1 στο καλάθι αγορών σου.",module,Magento_AdvancedCheckout
 "You cannot add a product.","Δεν μπορείτε να προσθέσετε ένα προϊόν.",module,Magento_AdvancedCheckout
 "Order by SKU","Παραγγελία με βάση κωδικό προϊόντος",module,Magento_AdvancedCheckout
 "The SKU was not found in the catalog.","Το SKU δεν βρέθηκε στον κατάλογο.",module,Magento_AdvancedCheckout
@@ -154,8 +154,8 @@
 "We can't add a product to cart by id ""%1"".","Δεν μπορούμε να προσθέσουμε ένα προϊόν στο καλάθι από την id ""%1"".",module,Magento_AdvancedCheckout
 "Something went wrong while reordering this product.","Κάτι πήγε στραβά κατά την επανάληψη της παραγγελίας αυτού του προϊόντος.",module,Magento_AdvancedCheckout
 "We can't find this wish list.","Δεν μπορούμε να βρούμε αυτή τη λίστα επιθυμιτών.",module,Magento_AdvancedCheckout
-"You added %1 product to your shopping cart.","Προσθέσατε %1 προϊόν στο καλάθι αγορών σας.",module,Magento_AdvancedCheckout
-"You added %1 products to your shopping cart.","Προσθέσατε %1 προϊόν στο καλάθι αγορών σας.",module,Magento_AdvancedCheckout
+"You added %1 product to your shopping cart.","Πρόσθεσες %1 προϊόν στο καλάθι αγορών σου.",module,Magento_AdvancedCheckout
+"You added %1 products to your shopping cart.","Πρόσθεσες %1 προϊόν στο καλάθι αγορών σου.",module,Magento_AdvancedCheckout
 "%1 product requires your attention.","%1 προϊόν (τα) απαιτεί την προσοχή σας.",module,Magento_AdvancedCheckout
 "%1 products require your attention.","%1 προϊόν (τα) απαιτεί την προσοχή σας.",module,Magento_AdvancedCheckout
 "Yes, for Specified Customer Groups","Ναι, για συγκεκριμένη ομάδα πελατών",module,Magento_AdvancedCheckout
@@ -183,10 +183,10 @@
 "Are you sure you want to remove this item?","Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το είδος;",module,Magento_AdvancedCheckout
 "SKU number","Αριθμός SKU",module,Magento_AdvancedCheckout
 "Upload File","Ανεβάστε αρχείο",module,Magento_AdvancedCheckout
-"Your csv file must include ""sku"" and ""qty"" columns.","Το αρχείο csv πρέπει να περιλαμβάνει τις στήλες ""Κωδικός προϊόντος"" και ""Ποσότητα"".",module,Magento_AdvancedCheckout
+"Your csv file must include ""SKU#"" and ""qty"" columns.","Το αρχείο csv πρέπει να περιλαμβάνει τις στήλες ""Κωδικός προϊόντος"" και ""Ποσότητα"".",module,Magento_AdvancedCheckout
 "Reset","Επαναφορά",module,Magento_AdvancedCheckout
 "SKU: ","Κωδικός:",module,Magento_AdvancedCheckout
-"Only <span id=""%1_max_allowed"">%2</span> in stock","Μόνο <span id=""%1_max_allowed"">%2</span> σε απόθεμα",module,Magento_AdvancedCheckout
+"Only <span id=""%1_max_allowed"">%2</span> in stock","Μόνο <span id=""%1_max_allowed"">%2</span> διαθέσιμο",module,Magento_AdvancedCheckout
 "Item","Είδος",module,Magento_AdvancedCheckout
 "See price before order confirmation.","Δείτε την τιμή πριν από την επιβεβαίωση της παραγγελίας.",module,Magento_AdvancedCheckout
 "What's this?","Τι είναι αυτό;",module,Magento_AdvancedCheckout
@@ -197,7 +197,7 @@
 "Remove item","Αφαίρεση είδους",module,Magento_AdvancedCheckout
 "Products Requiring Attention","Προϊόντα που απαιτούν την προσοχή σας",module,Magento_AdvancedCheckout
 "Add to Cart","Προσθήκη στο Καλάθι",module,Magento_AdvancedCheckout
-"Sku","Κωδικός προϊόντος",module,Magento_AdvancedCheckout
+"SKU#","Κωδικός προϊόντος",module,Magento_AdvancedCheckout
 "File","Αρχείο",module,Magento_AdvancedCheckout
 "File extensions allowed: .csv","Επεκτάσεις αρχείων που επιτρέπονται: .csv",module,Magento_AdvancedCheckout
 "Add Row","Προσθήκη Γραμμής",module,Magento_AdvancedCheckout
@@ -733,7 +733,7 @@ href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essential
 "user name","όνομα χρήστη",module,Magento_Backend
 "Password","Κωδικός πρόσβασης",module,Magento_Backend
 "password","κωδικός πρόσβασης",module,Magento_Backend
-"Sign in","Σύνδεση",module,Magento_Backend
+"Sign in","Είσοδος",module,Magento_Backend
 "Select Range:","Επιλέξτε Εύρος:",module,Magento_Backend
 "No Data Found","Δεν Βρέθηκαν Δεδομένα",module,Magento_Backend
 "Chart is disabled. To enable the chart, click <a href=""%1"">here</a>.","Το γράφημα είναι απενεργοποιημένο. Για να ενεργοποιήσετε το γράφημα, κάντε κλικ <a href=""%1""> εδώ</a>.",module,Magento_Backend
@@ -1549,7 +1549,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "What are you looking for?","Τι ψάχνετε;",module,Magento_Bundle
 "ID","ID",module,Magento_Bundle
 "Product","Προϊόν",module,Magento_Bundle
-"SKU","Κωδικός",module,Magento_Bundle
+"SKU#","Κωδικός",module,Magento_Bundle
 "Price","Τιμή",module,Magento_Bundle
 "Delete","Διαγραφή",module,Magento_Bundle
 "Use Default Value","Χρησιμοποιήστε την Προεπιλεγμένη Τιμή",module,Magento_Bundle
@@ -1620,7 +1620,8 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "* Required Fields","* Απαιτούμενα πεδία",module,Magento_Bundle
 "Your Customization","Η Προσαρμογή σας",module,Magento_Bundle
 "Availability","Διαθεσιμότητα",module,Magento_Bundle
-"In stock","Σε απόθεμα",module,Magento_Bundle
+"In stock","Διαθέσιμο",module,Magento_Bundle
+"SKU#","Κωδικός",module,Magento_Bundle
 "Out of stock","Εξαντλημένο",module,Magento_Bundle
 "Summary","Περίληψη",module,Magento_Bundle
 "%1 x %2","%1 x %2",module,Magento_Bundle
@@ -1656,7 +1657,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 """%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_Bundle
 "The option with ""%1"" ID can't be deleted.","The option with ""%1"" ID can't be deleted.",module,Magento_Bundle
 """option_id"" and ""parent_id"" values should be specified","""option_id"" and ""parent_id"" values should be specified",module,Magento_BundleGraphQl
-"""sku"" value should be specified","""sku"" value should be specified",module,Magento_BundleGraphQl
+"""SKU#"" value should be specified","""SKU#"" value should be specified",module,Magento_BundleGraphQl
 "Unique constraint violation found","Βρέθηκε παραβίαση μοναδικού περιορισμού",module,Magento_BundleStaging
 "Cancel","Άκυρο",module,Magento_BundleStaging
 "Add Selected Products","Προσθήκη Επιλεγμένων Προϊόντων",module,Magento_BundleStaging
@@ -1667,7 +1668,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "Thumbnail","Μικρογραφία",module,Magento_BundleStaging
 "Name","Όνομα",module,Magento_BundleStaging
 "Type","Τύπος",module,Magento_BundleStaging
-"SKU","Κωδικός",module,Magento_BundleStaging
+"SKU#","Κωδικός",module,Magento_BundleStaging
 "Quantity","Ποσότητα",module,Magento_BundleStaging
 "Price","Τιμή",module,Magento_BundleStaging
 "Always","Πάντα",module,Magento_Captcha
@@ -1705,7 +1706,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "Use All Available Attributes","Χρήση όλων των διαθέσιμων χαρακτηριστικών",module,Magento_Catalog
 "ID","ID",module,Magento_Catalog
 "Name","Όνομα",module,Magento_Catalog
-"SKU","Κωδικός",module,Magento_Catalog
+"SKU#","Κωδικός",module,Magento_Catalog
 "Visibility","Ορατότητα",module,Magento_Catalog
 "Status","Κατάσταση",module,Magento_Catalog
 "Price","Τιμή",module,Magento_Catalog
@@ -1932,7 +1933,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "This attribute set no longer exists.","Αυτό το Σύνολο Χαρακτηριστικών δεν υπάρχει πλέον.",module,Magento_Catalog
 "You saved the attribute set.","Αποθηκεύσατε το Σύνολο Χαρακτηριστικών.",module,Magento_Catalog
 "Something went wrong while saving the attribute set.","Κάτι πήγε στραβά κατά την αποθήκευση του Σύνολου Χαρακτηριστικών.",module,Magento_Catalog
-"You added product %1 to the comparison list.","Προσθέσατε το προϊόν %1 στη λίστα σύγκρισης.",module,Magento_Catalog
+"You added product %1 to the comparison list.","Πρόσθεσες το προϊόν %1 στη λίστα σύγκρισης.",module,Magento_Catalog
 "You cleared the comparison list.","Καταργήσατε τη λίστα σύγκρισης.",module,Magento_Catalog
 "Something went wrong  clearing the comparison list.","Κάτι πήγε λάθος κατά την εκκαθάριση της λίστας σύγκρισης.",module,Magento_Catalog
 "You removed product %1 from the comparison list.","Αφαιρέσατε το προϊόν %1 από τη λίστα σύγκρισης.",module,Magento_Catalog
@@ -2240,7 +2241,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "Enable Qty Increments","Ενεργοποίηση Προσαυξήσεις Ποσ",module,Magento_Catalog
 "Qty Increments","Προσαυξήσεις Ποσ.",module,Magento_Catalog
 "Stock Availability","Διαθεσιμότητα",module,Magento_Catalog
-"In Stock","Σε Απόθεμα",module,Magento_Catalog
+"In Stock","Διαθέσιμο",module,Magento_Catalog
 "Out of Stock","Εξαντλημένο",module,Magento_Catalog
 "Add Product To Websites","Προσθήκη προϊόντος σε ιστοσελίδες",module,Magento_Catalog
 "Remove Product From Websites","Αφαιρέστε το προϊόν από ιστοσελίδες",module,Magento_Catalog
@@ -2289,8 +2290,9 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "Print This Page","Εκτύπωση αυτής της Σελίδας",module,Magento_Catalog
 "Remove Product","Αφαίρεση Προϊόντος",module,Magento_Catalog
 "Add to Cart","Προσθήκη στο Καλάθι",module,Magento_Catalog
-"In stock","Σε απόθεμα",module,Magento_Catalog
+"In stock","Διαθέσιμο",module,Magento_Catalog
 "Out of stock","Εξαντλημένο",module,Magento_Catalog
+"Upon Order","Διαθέσιμό κάτοπιν παραγγελίας",module,Magento_Catalog
 "Add to Wish List","Προσθήκη στη Λίστα Επιθυμιών",module,Magento_Catalog
 "You have no items to compare.","Δεν έχετε επιλέξει προϊόντα για σύγκριση.",module,Magento_Catalog
 "Remove This Item","Διαγραφή Αυτού του Είδους",module,Magento_Catalog
@@ -2551,7 +2553,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "The attribute couldn't be validated due to an error. Verify your information and try again. If the error persists, please try again later.","The attribute couldn't be validated due to an error. Verify your information and try again. If the error persists, please try again later.",module,Magento_Catalog
 "Tier prices data should be array, but actually other type is received","Tier prices data should be array, but actually other type is received",module,Magento_Catalog
 "Price indexer ""%1"" must implement %2 or %3","Price indexer ""%1"" must implement %2 or %3",module,Magento_Catalog
-"You added product %1 to the <a href=""%2"">comparison list</a>.","You added product %1 to the <a href=""%2"">comparison list</a>.",module,Magento_Catalog
+"You added product %1 to the <a href=""%2"">comparison list</a>.","Πρόσθεσες το προϊόν %1 στην <a href=""%2"">Λίστα συγκρίσης</a>.",module,Magento_Catalog
 "Maximum %1 characters","Maximum %1 characters",module,Magento_Catalog
 "remaining","remaining",module,Magento_Catalog
 "too many","too many",module,Magento_Catalog
@@ -2767,7 +2769,8 @@ Time in seconds between the widget updates.,module,Magento_Catalog
 "No Backorders","Δεν υπάρχουν Προπαραγγελίες",module,Magento_CatalogInventory
 "Allow Qty Below 0","Επιτρέψει ποσότητα κάτω από 0",module,Magento_CatalogInventory
 "Allow Qty Below 0 and Notify Customer","Επιτρέπεται Ποσ. Κάτω από το 0 και Ειδοποίηση Πελάτη",module,Magento_CatalogInventory
-"In Stock","Σε Απόθεμα",module,Magento_CatalogInventory
+"In Stock","Διαθέσιμο",module,Magento_CatalogInventory
+"SKU#","Κωδικός",module,Magento_CatalogInventory
 "Out of Stock","Εξαντλημένο",module,Magento_CatalogInventory
 "Unable to save Stock Item","Αδυνατό να αποθηκευθεί το στοιχείο αποθέματος",module,Magento_CatalogInventory
 "Stock Item with id ""%1"" does not exist.","Δεν υπάρχει απόθεμα στοιχείο με id ""%1"".",module,Magento_CatalogInventory
@@ -2803,11 +2806,11 @@ Time in seconds between the widget updates.,module,Magento_Catalog
 "Inventory","Απόθεμα",module,Magento_CatalogInventory
 "Stock Options","Επιλογές Αποθέματος",module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed","Μείωση Αποθεμάτων Όταν Τοποθετείται η Παραγγελία",module,Magento_CatalogInventory
-"Set Items' Status to be In Stock When Order is Cancelled","Ορισμός κατάστασης των αντικειμένων να είναι σε απόθεμα όταν Ακυρώνονται",module,Magento_CatalogInventory
+"Set Items' Status to be In Stock When Order is Cancelled","Ορισμός κατάστασης των αντικειμένων να είναι διαθέσιμο όταν Ακυρώνονται",module,Magento_CatalogInventory
 "Display Out of Stock Products","Εμφάνιση των Εξαντλημένων Προϊόντων",module,Magento_CatalogInventory
 "Products will still be shown by direct product URLs.","Τα προϊόντα θα εξακολουθούν να φαίνονται από την άμεση διεύθυνση URL προϊόντων.",module,Magento_CatalogInventory
 "Only X left Threshold","Όριο για Μόνο X απόμειναν",module,Magento_CatalogInventory
-"Display Products Availability in Stock on Storefront","Εμφάνιση διαθεσιμότητας των προϊόντων σε απόθεμα στην βιτρίνα καταστήματος",module,Magento_CatalogInventory
+"Display Products Availability in Stock on Storefront","Εμφάνιση διαθεσιμότητας των προϊόντων διαθέσιμο στην βιτρίνα καταστήματος",module,Magento_CatalogInventory
 "Product Stock Options","Επιλογές Αποθέματος Προϊόντων",module,Magento_CatalogInventory
 "Please note that these settings apply to individual items in the cart, not to the entire cart.","Παρακαλείστε να σημειώσετε ότι αυτές οι ρυθμίσεις ισχύουν για μεμονωμένα αντικείμενα στο καλάθι, όχι για ολοκληρο το καλάθι.",module,Magento_CatalogInventory
 "Manage Stock","Διαχείριση Αποθεμάτων",module,Magento_CatalogInventory
@@ -2824,7 +2827,7 @@ Time in seconds between the widget updates.,module,Magento_Catalog
 "Use Config Settings","Χρήση Ρυθμίσεων Παραμέτρων",module,Magento_CatalogInventory
 "Qty Uses Decimals","Η Ποσ. χρησιμοποιεί δεκαδικά ψηφία",module,Magento_CatalogInventory
 "Allow Multiple Boxes for Shipping","Επιτρέπονται Πολλαπλά Πλαίσια για τη Αποστολή",module,Magento_CatalogInventory
-"Display products availability in stock on Storefront.","Εμφάνιση διαθεσιμότητας των προϊόντων σε απόθεμα στην βιτρίνα καταστήματος.",module,Magento_CatalogInventory
+"Display products availability in stock on Storefront.","Εμφάνιση διαθεσιμότητας των προϊόντων διαθέσιμο στην βιτρίνα καταστήματος.",module,Magento_CatalogInventory
 "Use Deferred Stock Update","Χρησιμοποιήστε Αναβαλλόμενη Ενημέρωση Αποθέματος",module,Magento_CatalogInventory
 "Changing can take some time due to processing whole catalog.","Η αλλαγή μπορεί να πάρει κάποιο χρονικό διάστημα λόγω επεξεργασίας ολόκληρου του καταλόγου.",module,Magento_CatalogInventory
 "The Product stock item is invalid. Verify the stock item and try again.","The Product stock item is invalid. Verify the stock item and try again.",module,Magento_CatalogInventory
@@ -2892,7 +2895,7 @@ Time in seconds between the widget updates.,module,Magento_Catalog
 "ID","ID",module,Magento_CatalogRule
 "Type","Τύπος",module,Magento_CatalogRule
 "Attribute Set","Σύνολο χαρακτηριστικών",module,Magento_CatalogRule
-"SKU","Κωδικός",module,Magento_CatalogRule
+"SKU#","Κωδικός",module,Magento_CatalogRule
 "Product","Προϊόν",module,Magento_CatalogRule
 "Promotions","Προωθητικές ενέργειες",module,Magento_CatalogRule
 "We found updated rules that are not applied. Please click ""Apply Rules"" to update your catalog.","Βρήκαμε ενημερωμένους κανόνες που δεν ισχύουν. Παρακαλώ πατήστε στο κουμπί ""Εφαρμογή κανόνων"" για να ενημερώσετε τον κατάλογό σας.",module,Magento_CatalogRule
@@ -3139,7 +3142,7 @@ Time in seconds between the widget updates.,module,Magento_Catalog
 "Status","Κατάσταση",module,Magento_CatalogStaging
 "StatusText","Κείμενο Κατάστασης",module,Magento_CatalogStaging
 "Type","Τύπος",module,Magento_CatalogStaging
-"SKU","Κωδικός",module,Magento_CatalogStaging
+"SKU#","Κωδικός",module,Magento_CatalogStaging
 "Price","Τιμή",module,Magento_CatalogStaging
 "Remove Product from Update","Αφαιρέστε το προϊόν από την Ενημερωμένη έκδοση",module,Magento_CatalogStaging
 "Images","Εικόνες",module,Magento_CatalogStaging
@@ -3171,10 +3174,11 @@ Time in seconds between the widget updates.,module,Magento_Catalog
 "Create Permanent Redirect for URLs if URL Key Changed","Δημιουργήστε Μόνιμη Ανακατεύθυνση για διευθύνσεις URL εάν αλλάξει το κλειδί διεύθυνσης URL",module,Magento_CatalogUrlRewrite
 "Conditions Combination","Συνδυασμός Συνθηκών",module,Magento_CatalogWidget
 "Product Attribute","Χαρακτηριστικό Προϊόντος",module,Magento_CatalogWidget
-"SKU","Κωδικός",module,Magento_CatalogWidget
+"SKU#","Κωδικός",module,Magento_CatalogWidget
 "Please choose a condition to add.","Παρακαλώ επιλέξτε μια συνθήκη για προσθήκη.",module,Magento_CatalogWidget
 "Add to Cart","Προσθήκη στο Καλάθι",module,Magento_CatalogWidget
-"In stock","Σε απόθεμα",module,Magento_CatalogWidget
+"In stock","Διαθέσιμο",module,Magento_CatalogWidget
+"SKU#","Κωδικός",module,Magento_CatalogWidget
 "Out of stock","Εξαντλημένο",module,Magento_CatalogWidget
 "Add to Wish List","Προσθήκη στη Λίστα Επιθυμιών",module,Magento_CatalogWidget
 "Add to Compare","Προσθήκη για Σύγκριση",module,Magento_CatalogWidget
@@ -3211,9 +3215,10 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "Customer is already registered","Ο πελάτης είναι ήδη εγγεγραμένος",module,Magento_Checkout
 "Your session has expired","Η περίοδος λειτουργίας έχει λήξει",module,Magento_Checkout
 "A letter with further instructions will be sent to your email.","Μια επιστολή με τις περαιτέρω οδηγίες θα σταλεί στο email σας.",module,Magento_Checkout
-"You added %1 to your shopping cart.","Προσθέσατε %1 στο καλάθι αγορών σας.",module,Magento_Checkout
+"You added %1 to your shopping cart.","Πρόσθεσες %1 στο καλάθι αγορών σου.",module,Magento_Checkout
 "We can't add this item to your shopping cart right now.","Δεν μπορούμε να προσθέσουμε αυτό το προϊόν στο καλάθι των αγορών σας αυτή τη στιγμή.",module,Magento_Checkout
 "Out of stock","Εξαντλημένο",module,Magento_Checkout
+"Upon Order","Διαθέσιμό κάτοπιν παραγγελίας",module,Magento_Checkout
 "We can't find the quote item.","Δεν μπορούμε να βρούμε το στοιχείο προσφοράς.",module,Magento_Checkout
 "We cannot configure the product.","Δεν μπορούμε να διαμορφώσουμε το προϊόν.",module,Magento_Checkout
 "You used coupon code ""%1"".","Χρησιμοποιήσατε το κωδικό κουπονιού ""%1"".",module,Magento_Checkout
@@ -3306,7 +3311,7 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "Shipping Method:","Μέθοδος Αποστολής:",module,Magento_Checkout
 "Payment Method:","Μέθοδος Πληρωμής:",module,Magento_Checkout
 "Date & Time:","Ημερομηνία & Ώρα:",module,Magento_Checkout
-"Sign In","Σύνδεση",module,Magento_Checkout
+"Sign In","Είσοδος",module,Magento_Checkout
 "Email Address","Διεύθυνση Email",module,Magento_Checkout
 "Password","Κωδικός πρόσβασης",module,Magento_Checkout
 "Forgot Your Password?","Ξεχάσατε τον Κωδικό σας;",module,Magento_Checkout
@@ -3317,7 +3322,7 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "Estimated Total","Εκτίμιση Συνόλου",module,Magento_Checkout
 "You can create an account after checkout.","Μπορείτε να δημιουργήσετε ένα λογαριασμό μετά την ολοκλήρωση της παραγγελίας.",module,Magento_Checkout
 "You already have an account with us. Sign in or continue as guest.","Έχετε ήδη ένα λογαριασμό μαζί μας. Εισέλθετε ή συνεχίστε ως επισκέπτης.",module,Magento_Checkout
-"Login","Σύνδεση",module,Magento_Checkout
+"Login","Είσοδος",module,Magento_Checkout
 "See Details","Δείτε λεπτομέρειες",module,Magento_Checkout
 "Options Details","Λεπτομέρειες Επιλογών",module,Magento_Checkout
 "Remove","Διαγραφή",module,Magento_Checkout
@@ -3402,7 +3407,7 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "Maximum Display Recently Added Item(s)","Μέγιστη προβολή πρόσφατων προστιθέμενων προϊόντων",module,Magento_Checkout
 "of","από",module,Magento_Checkout
 "Something went wrong while saving the page. Please refresh the page and try again.","Something went wrong while saving the page. Please refresh the page and try again.",module,Magento_Checkout
-"You added %1 to your <a href=""%2"">shopping cart</a>.","You added %1 to your <a href=""%2"">shopping cart</a>.",module,Magento_Checkout
+"You added %1 to your <a href=""%2"">shopping cart</a>.","Πρόσθεσες %1 στο <a href=""%2"">Καλάθι αγορών σου</a>.",module,Magento_Checkout
 "Please select at least one product to add to cart","Please select at least one product to add to cart",module,Magento_Checkout
 "The quote item isn't found. Verify the item and try again.","The quote item isn't found. Verify the item and try again.",module,Magento_Checkout
 "The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.","The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.",module,Magento_Checkout
@@ -4437,7 +4442,7 @@ Maximum 255 characters are allowed.,module,Magento_CompanyCredit
 "Current Variations","Τρέχουσες Παραλλαγές",module,Magento_ConfigurableProduct
 "Image","Εικόνα",module,Magento_ConfigurableProduct
 "Name","Όνομα",module,Magento_ConfigurableProduct
-"SKU","Κωδικός",module,Magento_ConfigurableProduct
+"SKU#","Κωδικός",module,Magento_ConfigurableProduct
 "Price","Τιμή",module,Magento_ConfigurableProduct
 "Quantity","Ποσότητα",module,Magento_ConfigurableProduct
 "Weight","Βάρος",module,Magento_ConfigurableProduct
@@ -4573,7 +4578,7 @@ new products will be created. Use this step to customize images and price for yo
 "ID","ID",module,Magento_ConfigurableProductStaging
 "Thumbnail","Μικρογραφία",module,Magento_ConfigurableProductStaging
 "Name","Όνομα",module,Magento_ConfigurableProductStaging
-"SKU","Κωδικός",module,Magento_ConfigurableProductStaging
+"SKU#","Κωδικός",module,Magento_ConfigurableProductStaging
 "Price","Τιμή",module,Magento_ConfigurableProductStaging
 "Quantity","Ποσότητα",module,Magento_ConfigurableProductStaging
 "Weight","Βάρος",module,Magento_ConfigurableProductStaging
@@ -4714,7 +4719,7 @@ new products will be created. Use this step to customize images and price for yo
 "Please correct the value for file extensions.","Please correct the value for file extensions.",module,Magento_CustomAttributeManagement
 "Alphanumeric with spaces","Alphanumeric with spaces",module,Magento_CustomAttributeManagement
 "Sign Out","Αποσύνδεση",module,Magento_Customer
-"Sign In","Σύνδεση",module,Magento_Customer
+"Sign In","Είσοδος",module,Magento_Customer
 "You are subscribed to our newsletter.","Έχετε εγγραφεί στο ενημερωτικό δελτίο μας.",module,Magento_Customer
 "You aren't subscribed to our newsletter.","Δεν έχετε εγγραφεί στο ενημερωτικό δελτίο μας.",module,Magento_Customer
 "You have not set a default shipping address.","Δεν έχετε ορίσει κάποια προεπιλεγμένη διεύθυνση αποστολής.",module,Magento_Customer
@@ -4736,7 +4741,7 @@ new products will be created. Use this step to customize images and price for yo
 "Reset","Επαναφορά",module,Magento_Customer
 "ID","ID",module,Magento_Customer
 "Product","Προϊόν",module,Magento_Customer
-"SKU","Κωδικός",module,Magento_Customer
+"SKU#","Κωδικός",module,Magento_Customer
 "Quantity","Ποσότητα",module,Magento_Customer
 "Price","Τιμή",module,Magento_Customer
 "Total","Σύνολο",module,Magento_Customer
@@ -4814,8 +4819,8 @@ new products will be created. Use this step to customize images and price for yo
 "The customer would belong to Customer Group %s.","Ο πελάτης θα ανήκει στην ομάδα πελατών %s.",module,Magento_Customer
 "There was an error detecting Customer Group.","Παρουσιάστηκε σφάλμα κατά τον εντοπισμό της ομάδας πελάτη.",module,Magento_Customer
 "Validate VAT Number","Επικύρωση Αριθμού Φόρου",module,Magento_Customer
-"Customer Login","Σύνδεση Πελάτη",module,Magento_Customer
-"Create New Customer Account","Δημιουργία λογαριασμού νέου πελάτη",module,Magento_Customer
+"Customer Login","Είσοδος",module,Magento_Customer
+"Create New Customer Account","Νέος χρήστης; Κάνε Εγγραφή!",module,Magento_Customer
 "Date of Birth","Ημερομηνία γέννησης",module,Magento_Customer
 "Bad request.","Ακατάλληλη αίτηση.",module,Magento_Customer
 "This confirmation key is invalid or has expired.","Αυτό το κλειδί επιβεβαίωσης δεν είναι έγκυρο ή έχει λήξει.",module,Magento_Customer
@@ -5057,12 +5062,12 @@ new products will be created. Use this step to customize images and price for yo
 "Current Password","Τρέχον Κωδικός Πρόσβασης",module,Magento_Customer
 "New Password","Νέος κωδικός",module,Magento_Customer
 "Password Strength","Ισχύς Κωδικού Πρόσβασης",module,Magento_Customer
-"No Password","Δεν υπάρχει Κωδικός Πρόσβασης",module,Magento_Customer
+"No Password","",module,Magento_Customer
 "Confirm New Password","Επιβεβαίωση Νέου Κωδικού Πρόσβασης",module,Magento_Customer
 "Save","Αποθήκευση",module,Magento_Customer
 "Please enter your email address below to receive a password reset link.","Παρακαλώ εισάγετε το email σας παρακάτω για να λάβετε έναν σύνδεσμο επαναφοράς του κωδικού πρόσβασης.",module,Magento_Customer
 "Reset My Password","Επαναφορά του Κωδικού Πρόσβασης",module,Magento_Customer
-"Registered Customers","Εγγεγραμμένοι Πελάτες",module,Magento_Customer
+"Registered Customers","Νέος χρήστης; Κάνε Εγγραφή!",module,Magento_Customer
 "If you have an account, sign in with your email address.","Εάν έχετε λογαριασμό, συνδεθείτε με τη διεύθυνση του email σας.",module,Magento_Customer
 "Password","Κωδικός πρόσβασης",module,Magento_Customer
 "Forgot Your Password?","Ξεχάσατε τον Κωδικό σας;",module,Magento_Customer
@@ -5542,7 +5547,9 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Current Password","Τρέχον Κωδικός Πρόσβασης",module,Magento_CustomerCustomAttributes
 "New Password","Νέος κωδικός",module,Magento_CustomerCustomAttributes
 "Password Strength","Ισχύς Κωδικού Πρόσβασης",module,Magento_CustomerCustomAttributes
-"No Password","Δεν υπάρχει Κωδικός Πρόσβασης",module,Magento_CustomerCustomAttributes
+"No Password","",module,Magento_CustomerCustomAttributes
+"SKU#","Κώδικος",module,Magento_Catalog
+"SKU#","Κώδικος",module,Magento_Catalog
 "Confirm New Password","Επιβεβαίωση Νέου Κωδικού Πρόσβασης",module,Magento_CustomerCustomAttributes
 "Personal Information","Προσωπικές Πληροφορίες",module,Magento_CustomerCustomAttributes
 "Sign Up for Newsletter","Εγγραφή στο Ενημερωτικό Δελτίο",module,Magento_CustomerCustomAttributes
@@ -5628,7 +5635,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Inactive","Ανενεργό",module,Magento_CustomerSegment
 "Apply To","Εφαρμογή Σε",module,Magento_CustomerSegment
 "Visitors and Registered Customers","Επισκέπτες και Εγγεγραμμένοι Πελάτες",module,Magento_CustomerSegment
-"Registered Customers","Εγγεγραμμένοι Πελάτες",module,Magento_CustomerSegment
+"Registered Customers","Νέος χρήστης; Κάνε Εγγραφή!",module,Magento_CustomerSegment
 "Visitors","Επισκέπτες",module,Magento_CustomerSegment
 "Please save this information to specify segmentation conditions.","Παρακαλούμε να αποθηκεύσετε αυτές τις πληροφορίες για να καθορίσετε τις προϋποθέσεις δημιουργίας τμημάτων αγοράς.",module,Magento_CustomerSegment
 "Matched Customers (%1)","Πελάτες Ταιριάζουν (%1)",module,Magento_CustomerSegment
@@ -6105,12 +6112,13 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Browse Files...","Αναζήτηση Αρχείων...",module,Magento_Downloadable
 "Delete","Διαγραφή",module,Magento_Downloadable
 "Add product preview files here.","Προσθήκη προεπισκόπησης αρχείων προϊόντος εδώ.",module,Magento_Downloadable
-"SKU","Κωδικός",module,Magento_Downloadable
+"SKU#","Κωδικός",module,Magento_Downloadable
 "U","U",module,Magento_Downloadable
 "Select all","Επιλογή όλων",module,Magento_Downloadable
 "Unselect all","Αποεπιλογή όλων",module,Magento_Downloadable
 "Availability","Διαθεσιμότητα",module,Magento_Downloadable
-"In stock","Σε απόθεμα",module,Magento_Downloadable
+"In stock","Διαθέσιμο",module,Magento_Downloadable
+"SKU#","Κωδικός",module,Magento_Downloadable
 "Out of stock","Εξαντλημένο",module,Magento_Downloadable
 "Go to <a href=""%1"">My Downloadable Products</a>","Πηγαίνετε στο <a href=""%1"">Τα προϊόντα μου με δυνατότητα λήψης</a>",module,Magento_Downloadable
 "Downloadable Products","Προϊόντα με δυνατότητα λήψης",module,Magento_Downloadable
@@ -6708,7 +6716,8 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Minimum: %1","Ελάχιστο: %1",module,Magento_GiftCard
 "Maximum: %1","Μέγιστη: %1",module,Magento_GiftCard
 "Availability","Διαθεσιμότητα",module,Magento_GiftCard
-"In stock","Σε απόθεμα",module,Magento_GiftCard
+"In stock","Διαθέσιμο",module,Magento_GiftCard
+"SKU#","Κωδικός",module,Magento_GiftCard
 "You've been sent a gift from %store_name","Σας έχει αποσταλεί ένα δώρο από %store_name",module,Magento_GiftCard
 "%name,","%name,",module,Magento_GiftCard
 "%sender has sent you a gift card for use at <a href=""%store_url"">%store_name</a> and it is now ready to be used for purchases.","Ο %sender σας έστειλε μία δωροκάρτα για χρήση στο <a href=""%store_url"">%store_name</a> και τώρα είναι έτοιμη να χρησιμοποιηθεί για αγορές.",module,Magento_GiftCard
@@ -6960,7 +6969,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Gift Registry Entity","Οντότητα μητρώου δώρων",module,Magento_GiftRegistry
 "Product ID","ID Προϊόντος",module,Magento_GiftRegistry
 "Product","Προϊόν",module,Magento_GiftRegistry
-"SKU","Κωδικός",module,Magento_GiftRegistry
+"SKU#","Κωδικός",module,Magento_GiftRegistry
 "Price","Τιμή",module,Magento_GiftRegistry
 "Quantity","Ποσότητα",module,Magento_GiftRegistry
 "Total","Σύνολο",module,Magento_GiftRegistry
@@ -7411,7 +7420,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Name","Όνομα",module,Magento_GroupedProduct
 "Attribute Set","Σύνολο χαρακτηριστικών",module,Magento_GroupedProduct
 "Status","Κατάσταση",module,Magento_GroupedProduct
-"SKU","Κωδικός",module,Magento_GroupedProduct
+"SKU#","Κωδικός",module,Magento_GroupedProduct
 "Price","Τιμή",module,Magento_GroupedProduct
 "Default Quantity","Προεπιλεγμένη Ποσότητα",module,Magento_GroupedProduct
 "Actions","Ενέργειες",module,Magento_GroupedProduct
@@ -7425,7 +7434,8 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Default Qty","Προεπιλεγμένη Ποσότητα",module,Magento_GroupedProduct
 "Starting at","Ξεκινώντας από",module,Magento_GroupedProduct
 "Availability","Διαθεσιμότητα",module,Magento_GroupedProduct
-"In stock","Σε απόθεμα",module,Magento_GroupedProduct
+"In stock","Διαθέσιμο",module,Magento_GroupedProduct
+"SKU#","Κωδικός",module,Magento_GroupedProduct
 "Grouped product items","Στοιχεία Ομαδοποιημένου Προϊόντος",module,Magento_GroupedProduct
 "Grouped Product Image","Εικόνα Ομαδοποιημένου Προϊόντος",module,Magento_GroupedProduct
 "Select...","Επιλέξτε...",module,Magento_GroupedProduct
@@ -7441,7 +7451,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Thumbnail","Μικρογραφία",module,Magento_GroupedProductStaging
 "Name","Όνομα",module,Magento_GroupedProductStaging
 "Type","Τύπος",module,Magento_GroupedProductStaging
-"SKU","Κωδικός",module,Magento_GroupedProductStaging
+"SKU#","Κωδικός",module,Magento_GroupedProductStaging
 "Quantity","Ποσότητα",module,Magento_GroupedProductStaging
 "Price","Τιμή",module,Magento_GroupedProductStaging
 "Attribute Set","Σύνολο χαρακτηριστικών",module,Magento_GroupedProductStaging
@@ -7959,7 +7969,7 @@ e.g. var/export, var/import, var/export/some/dir","Για τον τύπο ""Το
 "Position of attribute in layered navigation block.","Η θέση του χαρακτηριστικού στο μπλοκ πολυεπίπεδης πλοήγησης.",module,Magento_LayeredNavigation
 "item","στοιχείο",module,Magento_LayeredNavigation
 "items","στοιχεία",module,Magento_LayeredNavigation
-"Now Shopping by","Τώρα Αγορές κατά",module,Magento_LayeredNavigation
+"Now Shopping by","Φίλτρα",module,Magento_LayeredNavigation
 "Previous","Προηγούμενο",module,Magento_LayeredNavigation
 "Remove","Διαγραφή",module,Magento_LayeredNavigation
 "Remove This Item","Διαγραφή Αυτού του Είδους",module,Magento_LayeredNavigation
@@ -8057,7 +8067,7 @@ it will make no affect on Price filter.",module,Magento_LayeredNavigation
 "Fetch","Λήψη",module,Magento_Logging
 "Update Payment","Ενημέρωση Πληρωμής",module,Magento_Logging
 "Update State","Ενημέρωση Κατάστασης",module,Magento_Logging
-"Login","Σύνδεση",module,Magento_Logging
+"Login","Είσοδος",module,Magento_Logging
 "Send","Αποστολή",module,Magento_Logging
 "Create","Δημιουργία",module,Magento_Logging
 "Catalog Products","Προϊόντα Καταλόγου",module,Magento_Logging
@@ -8305,7 +8315,7 @@ it will make no affect on Price filter.",module,Magento_LayeredNavigation
 "Public","Δημόσιο",module,Magento_MultipleWishlist
 "Private","Ιδιωτικό",module,Magento_MultipleWishlist
 "Product","Προϊόν",module,Magento_MultipleWishlist
-"SKU","Κωδικός",module,Magento_MultipleWishlist
+"SKU#","Κωδικός",module,Magento_MultipleWishlist
 "Comment","Σχόλιο",module,Magento_MultipleWishlist
 "Wish List Quantity","Ποσότητα Λίστας Επιθυμιών",module,Magento_MultipleWishlist
 "Store Quantity","Ποσότητα Καταστήματος",module,Magento_MultipleWishlist
@@ -8697,7 +8707,7 @@ it will make no affect on Price filter.",module,Magento_LayeredNavigation
 "Subtotal","Υποσύνολο",module,Magento_NegotiableQuote
 "Recalculate Quote","Recalculate Quote",module,Magento_NegotiableQuote
 "Update Prices","Update Prices",module,Magento_NegotiableQuote
-"SKU","Κωδικός",module,Magento_NegotiableQuote
+"SKU#","Κωδικός",module,Magento_NegotiableQuote
 "Configure","Ρύθμιση",module,Magento_NegotiableQuote
 "Delete Action","Delete Action",module,Magento_NegotiableQuote
 "The quote list has changed. Please update the negotiated price.","The quote list has changed. Please update the negotiated price.",module,Magento_NegotiableQuote
@@ -9006,7 +9016,7 @@ information on installing the agent is available <a target=""_blank"" href=""%1"
 " Copy"," Αντιγραφή",module,Magento_Newsletter
 "Are you sure you want to delete this template?","Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το πρότυπο;",module,Magento_Newsletter
 "Sign Up for Our Newsletter:","Εγγραφή στο Ενημερωτικό Δελτίο:",module,Magento_Newsletter
-"Enter your email address","Εισάγετε την ηλεκτρονική σας διεύθυνση",module,Magento_Newsletter
+"Enter your email address","Βάλε το email σου εδώ.",module,Magento_Newsletter
 "Subscribe","Εγγραφή",module,Magento_Newsletter
 "Newsletter subscription confirmation","Επιβεβαίωση της εγγραφής σε Ενημερωτικό δελτίο",module,Magento_Newsletter
 "Thank you for subscribing to our newsletter.","Σας ευχαριστούμε για την εγγραφή σας στο newsletter μας.",module,Magento_Newsletter
@@ -10019,7 +10029,7 @@ offered and the currency offered by the merchant is USD.",module,Magento_Paypal
 "Price:","Τιμή:",module,Magento_ProductAlert
 "Click here to stop alerts for this product.","Κάντε κλικ εδώ για να σταματήσετε τις ειδοποιήσεις για αυτό το προϊόν.",module,Magento_ProductAlert
 "Unsubscribe from all price alerts","Διαγραφή από όλες τις ειδοποιήσεις τιμών",module,Magento_ProductAlert
-"In stock alert! We wanted you to know that these products are now available:","Ξανά σε απόθεμα! Θα θέλαμε να γνωρίζετε ότι αυτά τα προϊόντα είναι τώρα διαθέσιμα:",module,Magento_ProductAlert
+"In stock alert! We wanted you to know that these products are now available:","Ξανά διαθέσιμο! Θα θέλαμε να γνωρίζετε ότι αυτά τα προϊόντα είναι τώρα διαθέσιμα:",module,Magento_ProductAlert
 "Unsubscribe from all stock alerts","Διαγραφή από όλες τις ειδοποιήσεις αποθέματος",module,Magento_ProductAlert
 "Product alerts Cron error","Σφάλμα cron ειδοποιήσεων προϊόντων",module,Magento_ProductAlert
 "Product alerts cron warnings","Προειδοποιήσεις cron ειδοποιήσεις προϊόντων",module,Magento_ProductAlert
@@ -10028,7 +10038,7 @@ offered and the currency offered by the merchant is USD.",module,Magento_Paypal
 "Products back in stock alert","Ειδοποίηση επαναφοράς αποθέματος προϊόντος",module,Magento_ProductAlert
 "Product Alerts","Ειδοποιήσεις Προϊόντος(ων)",module,Magento_ProductAlert
 "Allow Alert When Product Price Changes","Επιτρέψτε Ειδοποίηση όταν Αλλάξει η Τιμή του Προϊόντος",module,Magento_ProductAlert
-"Allow Alert When Product Comes Back in Stock","Επιτρέψτε Ειδοποίηση Όταν το Προϊόν είναι Ξανά σε Απόθεμα",module,Magento_ProductAlert
+"Allow Alert When Product Comes Back in Stock","Επιτρέψτε Ειδοποίηση Όταν το Προϊόν είναι Ξανά διαθέσιμο",module,Magento_ProductAlert
 "Price Alert Email Template","Πρότυπο Email Ειδοποίησης Τιμής",module,Magento_ProductAlert
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Το επιλεγμένο πρότυπο Email βασίζεται στo μητρικό θέμα όταν έχει επιλεχθεί η επιλογή ""Default"".",module,Magento_ProductAlert
 "Stock Alert Email Template","Πρότυπο Email για Ειδοποίησεις Αποθέματος",module,Magento_ProductAlert
@@ -10103,13 +10113,13 @@ offered and the currency offered by the merchant is USD.",module,Magento_Paypal
 "Page not found.","Η σελίδα δεν βρέθηκε.",module,Magento_QuickOrder
 "The uploaded CSV file does not contain a column labelled SKU. Make sure the first column is labelled SKU and that each line in the file contains a SKU value. Then upload the file again.","The uploaded CSV file does not contain a column labelled SKU. Make sure the first column is labelled SKU and that each line in the file contains a SKU value. Then upload the file again.",module,Magento_QuickOrder
 "You should correct the quantity for the product.","You should correct the quantity for the product.",module,Magento_QuickOrder
-"The SKU is out of stock.","The SKU is out of stock.",module,Magento_QuickOrder
+"The SKU is out of stock.","Το προίον είναι διαθεσιμο κατόπιν παραγγελίας.",module,Magento_QuickOrder
 "We don't have the quantity you requested.","We don't have the quantity you requested.",module,Magento_QuickOrder
 "An error occurred. For details, see the error log.","An error occurred. For details, see the error log.",module,Magento_QuickOrder
 "Exception message","Μήνυμα εξαίρεσης",module,Magento_QuickOrder
 "The file could not be uploaded because it is in the wrong format. Please select a CSV file to upload.","The file could not be uploaded because it is in the wrong format. Please select a CSV file to upload.",module,Magento_QuickOrder
 "Add from File","Add from File",module,Magento_QuickOrder
-"File must be in .csv format and include ""SKU"" and ""QTY"" columns","File must be in .csv format and include ""SKU"" and ""QTY"" columns",module,Magento_QuickOrder
+"File must be in .csv format and include ""SKU#"" and ""QTY"" columns","File must be in .csv format and include ""SKU#"" and ""QTY"" columns",module,Magento_QuickOrder
 "Choose File","Choose File",module,Magento_QuickOrder
 "Enter Multiple SKUs","Enter Multiple SKUs",module,Magento_QuickOrder
 "Use commas or paragraph to separate SKUs.","Use commas or paragraph to separate SKUs.",module,Magento_QuickOrder
@@ -10220,7 +10230,7 @@ offered and the currency offered by the merchant is USD.",module,Magento_Paypal
 "Shopping cart error: %message","Shopping cart error: %message",module,Magento_QuoteGraphQl
 "Could not find a product with SKU ""%sku""","Could not find a product with SKU ""%sku""",module,Magento_QuoteGraphQl
 "Could not add the product with SKU %sku to the shopping cart: %message","Could not add the product with SKU %sku to the shopping cart: %message",module,Magento_QuoteGraphQl
-"Missing key ""sku"" in cart item data","Missing key ""sku"" in cart item data",module,Magento_QuoteGraphQl
+"Missing key ""SKU#"" in cart item data","Missing key ""SKU#"" in cart item data",module,Magento_QuoteGraphQl
 "Missing key ""qty"" in cart item data","Missing key ""qty"" in cart item data",module,Magento_QuoteGraphQl
 "Could not find a cart with ID ""%masked_cart_id""","Could not find a cart with ID ""%masked_cart_id""",module,Magento_QuoteGraphQl
 "Current user does not have an active cart.","Current user does not have an active cart.",module,Magento_QuoteGraphQl
@@ -10593,7 +10603,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "does not have","δεν έχει",module,Magento_Reminder
 "Cart Line Items","Στοιχεία Γραμμής Καλαθιού",module,Magento_Reminder
 "Number of shopping cart line items %1 %2:","Αριθμός Αντικειμένων Γραμμής Καλαθιού Αγορών %1 %2:",module,Magento_Reminder
-"SKU","Κωδικός",module,Magento_Reminder
+"SKU#","Κωδικός",module,Magento_Reminder
 "Item SKU %1 %2 ","Κωδικός Προϊόντος %1 %2 ",module,Magento_Reminder
 "Store View","Προβολή Καταστήματος",module,Magento_Reminder
 "The item was added to shopping cart %1, store view %2.","Το στοιχείο προστέθηκε στο καλάθι αγορών %1, προβολή καταστήματος %2.",module,Magento_Reminder
@@ -10679,7 +10689,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Downloads","Μεταφορτώσεις",module,Magento_Reports
 "Product","Προϊόν",module,Magento_Reports
 "Link","Σύνδεσμος",module,Magento_Reports
-"SKU","Κωδικός",module,Magento_Reports
+"SKU#","Κωδικός",module,Magento_Reports
 "Purchases","Αγορές",module,Magento_Reports
 "CSV","CSV",module,Magento_Reports
 "Excel XML","Excel XML",module,Magento_Reports
@@ -10821,7 +10831,8 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "All Websites","Όλες οι Ιστοσελίδες",module,Magento_Reports
 "Recently Viewed","Είδατε Πρόσφατα",module,Magento_Reports
 "Add to Cart","Προσθήκη στο Καλάθι",module,Magento_Reports
-"In stock","Σε απόθεμα",module,Magento_Reports
+"In stock","Διαθέσιμο",module,Magento_Reports
+"SKU#","Κωδικός",module,Magento_Reports
 "Out of stock","Εξαντλημένο",module,Magento_Reports
 "Add to Wish List","Προσθήκη στη Λίστα Επιθυμιών",module,Magento_Reports
 "Add to Compare","Προσθήκη για Σύγκριση",module,Magento_Reports
@@ -10907,7 +10918,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "We can't add the item to the Requisition List right now: %1.","We can't add the item to the Requisition List right now: %1.",module,Magento_RequisitionList
 "We can't specify a requisition list.","We can't specify a requisition list.",module,Magento_RequisitionList
 "We can't specify a product.","Δεν μπορούμε να καθορίσουμε ένα προϊόν.",module,Magento_RequisitionList
-"You added %1 item(s) to your shopping cart.","You added %1 item(s) to your shopping cart.",module,Magento_RequisitionList
+"You added %1 item(s) to your shopping cart.","Πρόσθεςσες %1 τεμάχιο/α στο Καλάθι αγορών σου.",module,Magento_RequisitionList
 "Something went wrong.","Κάτι πήγε στραβά.",module,Magento_RequisitionList
 "We can't configure the product right now.","Δεν μπορούμε να διαμορφώσουμε το προϊόν αυτή τη στιγμή.",module,Magento_RequisitionList
 "%1 item(s) were copied to %2","%1 item(s) were copied to %2",module,Magento_RequisitionList
@@ -10956,7 +10967,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Qty","Ποσότητα",module,Magento_RequisitionList
 "Subtotal","Υποσύνολο",module,Magento_RequisitionList
 "Product","Προϊόν",module,Magento_RequisitionList
-"SKU","Κωδικός",module,Magento_RequisitionList
+"SKU#","Κωδικός",module,Magento_RequisitionList
 "Excl. Tax","Χωρίς ΦΠΑ",module,Magento_RequisitionList
 "Edit item","Επεξεργασία στοιχείου",module,Magento_RequisitionList
 "Remove item","Αφαίρεση είδους",module,Magento_RequisitionList
@@ -11021,7 +11032,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Created","Δημιουργήθηκε",module,Magento_Review
 "Title","Τίτλος",module,Magento_Review
 "Type","Τύπος",module,Magento_Review
-"SKU","Κωδικός",module,Magento_Review
+"SKU#","Κωδικός",module,Magento_Review
 "Action","Ενέργεια",module,Magento_Review
 "Edit","Επεξεργασία",module,Magento_Review
 "Delete","Διαγραφή",module,Magento_Review
@@ -11141,7 +11152,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Visibility","Ορατότητα",module,Magento_ReviewStaging
 "Type","Τύπος",module,Magento_ReviewStaging
 "Product","Προϊόν",module,Magento_ReviewStaging
-"SKU","Κωδικός",module,Magento_ReviewStaging
+"SKU#","Κωδικός",module,Magento_ReviewStaging
 "Reward Points","Πόντοι Ανταμοιβής",module,Magento_Reward
 "Reward Points History","Ιστορικό Πόντων Ανταμοιβής",module,Magento_Reward
 "Expired reward","Ληγμένη ανταμοιβή",module,Magento_Reward
@@ -11356,7 +11367,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Items","Είδη",module,Magento_Rma
 "Return Items","Προϊόντα Επιστροφής",module,Magento_Rma
 "Product","Προϊόν",module,Magento_Rma
-"SKU","Κωδικός",module,Magento_Rma
+"SKU#","Κωδικός",module,Magento_Rma
 "Remaining","Απομένουν",module,Magento_Rma
 "Requested","Ζητήθηκαν",module,Magento_Rma
 "Authorized","Εξουσιοδοτήθηκε",module,Magento_Rma
@@ -11782,7 +11793,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Add Selected Product(s) to Order","Προσθέσετε το επιλεγμένο προϊόν(τα) σε παραγγελία",module,Magento_Sales
 "ID","ID",module,Magento_Sales
 "Product","Προϊόν",module,Magento_Sales
-"SKU","Κωδικός",module,Magento_Sales
+"SKU#","Κωδικός",module,Magento_Sales
 "Price","Τιμή",module,Magento_Sales
 "Select","Επιλογή",module,Magento_Sales
 "Quantity","Ποσότητα",module,Magento_Sales
@@ -13065,6 +13076,7 @@ Usage limit enforced for logged in customers only.,module,Magento_SalesRule
 "Edit","Επεξεργασία",module,Magento_ScheduledImportExport
 "Run","Εκτέλεση",module,Magento_ScheduledImportExport
 "For Type ""Local Server"" use relative path to Magento installation,  e.g. var/export, var/import, var/export/some/dir","For Type ""Local Server"" use relative path to Magento installation,  e.g. var/export, var/import, var/export/some/dir",module,Magento_ScheduledImportExport
+"Search...","Ψάχνω για...",module,Magento_Search
 "Search Term","Όρος Αναζήτησης",module,Magento_Search
 "Results","Αποτελέσματα",module,Magento_Search
 "Uses","Χρησιμοποιεί",module,Magento_Search
@@ -13405,7 +13417,7 @@ configuring in shared catalogs will not be restricted to customers.",module,Mage
 "adjust-prices-prompt","adjust-prices-prompt",module,Magento_SharedCatalog
 "This discount will be applied to all selected products. The custom price type will be set to 'Fixed'.","This discount will be applied to all selected products. The custom price type will be set to 'Fixed'.",module,Magento_SharedCatalog
 "Adjust Fixed Price","Adjust Fixed Price",module,Magento_SharedCatalog
-"SKU","Κωδικός",module,Magento_SharedCatalog
+"SKU#","Κωδικός",module,Magento_SharedCatalog
 "Websites","Ιστοσελίδες",module,Magento_SharedCatalog
 "Cost","Κόστος",module,Magento_SharedCatalog
 "MSRP","MSRP",module,Magento_SharedCatalog
@@ -13564,7 +13576,7 @@ configuring in shared catalogs will not be restricted to customers.",module,Mage
 "Shipment #","Αποστολή #",module,Magento_Shipping
 "Print Shipment","Εκτύπωση Αποστολής",module,Magento_Shipping
 "Tracking Number(s):","Αριθμός Εντοπισμού:",module,Magento_Shipping
-"SKU","Κωδικός",module,Magento_Shipping
+"SKU#","Κωδικός",module,Magento_Shipping
 "Order tracking","Παρακολούθηση παραγγελίας",module,Magento_Shipping
 "Tracking Number:","Αριθμός Εντοπισμού:",module,Magento_Shipping
 "Carrier:","Πάροχος:",module,Magento_Shipping
@@ -14053,7 +14065,7 @@ Select a different range to add a new Future Update.",module,Magento_Staging
 "Increment Id","Προσαύξηση Id",module,Magento_Support
 "Customer Id","Id Πελάτη",module,Magento_Support
 "Duplicate Products By SKU","Κλωνοποίηση Προϊόντων Βάση του Κωδικού",module,Magento_Support
-"SKU","Κωδικός",module,Magento_Support
+"SKU#","Κωδικός",module,Magento_Support
 "Duplicate Products By URL Key","Κλωνοποίηση Προϊόντων Βάση του Κλειδιού URL",module,Magento_Support
 "URL Key","URL κλειδί",module,Magento_Support
 "Website","Ιστοσελίδα",module,Magento_Support
@@ -14960,6 +14972,7 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Custom","Προσαρμοσμένο",module,Magento_Ui
 "per page","ανά σελίδα",module,Magento_Ui
 "Search","Αναζήτηση",module,Magento_Ui
+"All Categories","Κατηγορία",module,Mageplaza_Search
 "Please enter 6 or more characters. Leading or trailing spaces will be ignored.","Παρακαλώ εισάγετε 6 ή περισσότερους χαρακτήρες. Τα κενά διαστήματα πριν ή μετά θα παραβλεφθούν.",module,Magento_Ui
 "ui/grid/filters/elements/select","ui/grid/filters/elements/select",module,Magento_Ui
 "Please enter a quantity greater than 0.","Please enter a quantity greater than 0.",module,Magento_Ui
@@ -15132,7 +15145,7 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Skip Category Selection","Παράληψη Επιλογής Κατηγορίας",module,Magento_UrlRewrite
 "ID","ID",module,Magento_UrlRewrite
 "Name","Όνομα",module,Magento_UrlRewrite
-"SKU","Κωδικός",module,Magento_UrlRewrite
+"SKU#","Κωδικός",module,Magento_UrlRewrite
 "Status","Κατάσταση",module,Magento_UrlRewrite
 "Edit URL Rewrite for CMS page","Επεξεργαστείτε τη επανεγγραφή διεύθυνσης URL για μια CMS σελίδα",module,Magento_UrlRewrite
 "Add URL Rewrite for CMS page","Προσθέστε τη επανεγγραφή διεύθυνσης URL για μια CMS σελίδα",module,Magento_UrlRewrite
@@ -15750,7 +15763,7 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "The CMS node with the ""%1"" ID doesn't exist.","The CMS node with the ""%1"" ID doesn't exist.",module,Magento_VersionsCms
 "Search All Products","Αναζήτηση σε όλα τα προϊόντα",module,Magento_VisualMerchandiser
 "Add Product by SKU","Προσθήκη προϊόντος από το SKU",module,Magento_VisualMerchandiser
-"Position","Θέσης",module,Magento_VisualMerchandiser
+"Position","Δημοτικότητα",module,Magento_VisualMerchandiser
 "Action","Ενέργεια",module,Magento_VisualMerchandiser
 "Unassign","Κατάργηση αντιστοίχισης",module,Magento_VisualMerchandiser
 "Top","Πάνω",module,Magento_VisualMerchandiser
@@ -15837,7 +15850,7 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Thumbnail","Μικρογραφία",module,Magento_VisualMerchandiser
 "Name","Όνομα",module,Magento_VisualMerchandiser
 "Price","Τιμή",module,Magento_VisualMerchandiser
-"SKU","Κωδικός",module,Magento_VisualMerchandiser
+"SKU#","Κωδικός",module,Magento_VisualMerchandiser
 "Stock","Απόθεμα",module,Magento_VisualMerchandiser
 "Category Products","Προϊόντα Κατηγορίας",module,Magento_VisualMerchandiser
 "Wait loading...","Wait loading...",module,Magento_VisualMerchandiser
@@ -16006,7 +16019,7 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "We can't specify a product.","Δεν μπορούμε να καθορίσουμε ένα προϊόν.",module,Magento_Wishlist
 "We can't add the item to Wish List right now: %1.","Δεν μπορούμε να προσθέσουμε το στοιχείο στη λίστα επιθυμιών αυτή τη στιγμή: %1.",module,Magento_Wishlist
 "We can't add the item to Wish List right now.","Δεν μπορούμε να προσθέσουμε το στοιχείο στη λίστα επιθυμιών αυτή τη στιγμή.",module,Magento_Wishlist
-"You added %1 to your shopping cart.","Προσθέσατε %1 στο καλάθι αγορών σας.",module,Magento_Wishlist
+"You added %1 to your shopping cart.","Πρόσθεσες %1 στο Καλάθι αγορών σου.",module,Magento_Wishlist
 "This product(s) is out of stock.","Αυτό το/τα προϊόν/προϊόντα είναι εξαντλημένο.",module,Magento_Wishlist
 "We can't add the item to the cart right now.","Δεν μπορούμε να προσθέσουμε το στοιχείο στο καλάθι αυτή τη στιγμή.",module,Magento_Wishlist
 "We can't load the Wish List item right now.","Αυτή τη στιγμή δεν μπορούμε να φορτώσουμε τα στοιχεία της λίστας επιθυμιών.",module,Magento_Wishlist
@@ -16067,8 +16080,9 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Qty","Ποσότητα",module,Magento_Wishlist
 "Add to Cart","Προσθήκη στο Καλάθι",module,Magento_Wishlist
 "Availability","Διαθεσιμότητα",module,Magento_Wishlist
-"In stock","Σε απόθεμα",module,Magento_Wishlist
+"In stock","Διαθέσιμο",module,Magento_Wishlist
 "Out of stock","Εξαντλημένο",module,Magento_Wishlist
+"SKU#","Κωδικός",module,Magento_Wishlist
 "Edit","Επεξεργασία",module,Magento_Wishlist
 "Remove Item","Αφαίρεση είδους",module,Magento_Wishlist
 "Remove item","Αφαίρεση είδους",module,Magento_Wishlist
@@ -16195,7 +16209,7 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Menu","Μενού",theme,frontend\Magento\blank
 "Account","Λογαριασμός",theme,frontend\Magento\blank
 "Settings","Ρυθμίσεις",theme,frontend\Magento\blank
-"Now Shopping by","Τώρα Αγορές κατά",theme,frontend\Magento\luma
+"Now Shopping by","Φίλτρα",theme,frontend\Magento\luma
 "Previous","Προηγούμενο",theme,frontend\Magento\luma
 "Remove","Διαγραφή",theme,frontend\Magento\luma
 "Remove This Item","Διαγραφή Αυτού του Είδους",theme,frontend\Magento\luma
